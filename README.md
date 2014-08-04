@@ -10,11 +10,10 @@ K9s for Warriors](http://www.k9sforwarriors.org "K9s for Warriors") provides dog
 
 ## Technologies ##
 We use the following technologies on this project:
-- ASP.NET MVC 5 with C#
-- SQL Server / Windows Azure SQL Database
-- Microsoft's [Entity Framework](http://msdn.microsoft.com/en-us/data/ef.aspx "Entity Framework")
-- Microsoft's [Unity Container](http://msdn.microsoft.com/en-us/data/ef.aspx "Unity Container")
+- [ASP.NET](http://www.asp.net "ASP.NET") MVC 5 with [C#](http://msdn.microsoft.com/en-us/library/kx37x362.aspx "C#")
+- Microsoft [SQL Server](https://www.microsoft.com/en-us/server-cloud/products/sql-server/ "SQL Server") / Microsoft [Azure SQL Database](http://azure.microsoft.com/en-us/services/sql-database/ "Azure SQL Database")
+- Microsoft [Entity Framework](http://msdn.microsoft.com/en-us/data/ef.aspx "Entity Framework")
+- Microsoft [Unity Container](http://msdn.microsoft.com/en-us/data/ef.aspx "Unity Container")
 - [Newtonsoft JSON.NET](http://james.newtonking.com/json "Newtonsoft Json.NET")
-- HTML5
+- [HTML5](http://www.w3schools.com/html/html5_intro.asp "HTML5")
 - Twitter's [Bootstrap](http://www.getbootstrap.com "Bootstrap")
-
