@@ -1,8 +1,5 @@
 # K9s for Warriors - Warrior Portal #
 
-----------
-
-
 ## A [Code on the Beach](http://www.codeonthebeach.com "Code on the Beach") Hackathon 2014 Hackathon Project ##
 
 
