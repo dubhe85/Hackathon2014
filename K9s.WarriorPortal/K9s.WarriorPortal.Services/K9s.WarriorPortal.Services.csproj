@@ -41,6 +41,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\K9s.WarriorPortal.Models\K9s.WarriorPortal.Models.csproj">
+      <Project>{d0b6444b-54a7-4ade-9faa-797dd96b23e4}</Project>
+      <Name>K9s.WarriorPortal.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -172,6 +172,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -247,6 +248,10 @@
     <ProjectReference Include="..\K9s.WarriorPortal.Models\K9s.WarriorPortal.Models.csproj">
       <Project>{D0B6444B-54A7-4ADE-9FAA-797DD96B23E4}</Project>
       <Name>K9s.WarriorPortal.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\K9s.WarriorPortal.Services\K9s.WarriorPortal.Services.csproj">
+      <Project>{a3dc9fbb-529e-4a10-adc6-8eab408496f8}</Project>
+      <Name>K9s.WarriorPortal.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
