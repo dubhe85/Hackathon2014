@@ -1,6 +1,6 @@
 # K9s for Warriors - Warrior Portal #
 
-## A [Code on the Beach](http://www.codeonthebeach.com "Code on the Beach") Hackathon 2014 Hackathon Project ##
+## A [Code on the Beach](http://www.codeonthebeach.com "Code on the Beach") 2014 Hackathon Project ##
 
 
 This project is a collaboration between Code on the Beach volunteers and K9s for Warriors.
