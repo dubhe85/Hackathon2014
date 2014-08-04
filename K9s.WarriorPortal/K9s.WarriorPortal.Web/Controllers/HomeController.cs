@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace K9s.WarriorPortal.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         public ActionResult Index()
         {

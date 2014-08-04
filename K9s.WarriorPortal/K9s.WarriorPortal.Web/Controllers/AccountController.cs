@@ -15,7 +15,7 @@ using Owin;
 namespace K9s.WarriorPortal.Web.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : ControllerBase
     {
         private ApplicationUserManager _userManager;
 
