@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace K9s.WarriorPortal.Web.Models
+namespace K9s.WarriorPortal.Web.Account
 {
     public class ExternalLoginConfirmationViewModel
     {

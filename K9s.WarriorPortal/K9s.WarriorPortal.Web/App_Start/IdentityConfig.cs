@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
+using K9s.WarriorPortal.Web.Account;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
-using K9s.WarriorPortal.Web.Models;
 
 namespace K9s.WarriorPortal.Web
 {
