@@ -1,0 +1,184 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Application</h2>
+
+<p>
+    INCOMPLETE APPLICATIONS WILL NOT BE REVIEWED BY COMMITTEE AND WILL BE HELD FOR 30
+    DAYS. AFTER 30 DAYS ALL APPLICANTS WILL NEED TO REAPPLY.
+</p>
+
+<h2>K9s For Warriors Application Form </h2>
+
+<h3>APPLICANT INFORMATION  </h3>
+
+
+<div class="row">
+    <label>Full Name:</label>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        @Html.Label("LastName") @Html.Editor("LastName")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("FirstName") @Html.Editor("FirstName")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("MaidenName") @Html.Editor("Maiden Name M.I.")
+    </div>
+</div>
+
+<div class="row">
+    <label>Address:</label>
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        @Html.Label("Street") @Html.Editor("Street")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("Apartment/Unit #") @Html.Editor("Apartment")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        @Html.Label("City") @Html.Editor("City")
+    </div>
+    <div class="col-sm-3">
+        @Html.Label("County") @Html.Editor("County")
+    </div>
+    <div class="col-sm-3">
+        @Html.Label("State") @Html.Editor("State")
+    </div>
+    <div class="col-sm-3">
+        @Html.Label("ZipCode") @Html.Editor("ZipCode")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        @Html.Label("EmailAddress") @Html.Editor("EmailAddress")
+    </div>
+    <div class="col-sm-3">
+        @Html.Label("HomePhone") @Html.Editor("HomePhone")
+    </div>
+    <div class="col-sm-3">
+        @Html.Label("AlternatePhone") @Html.Editor("AlternatePhone")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        @Html.Label("GovernmentID") @Html.Editor("GovernmentID")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("DateOfBirth") @Html.Editor("DateOfBirth")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("MaritalStatus") @Html.DropDownList("MaritalStatus")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+    Significant Other's Information
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Label("SignificantOtherName") @Html.Editor("SignificantOtherName")
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        @Html.Label("SignificantOtherEmail") @Html.Editor("SignificantOtherEmail")
+    </div>
+    <div class="col-sm-6">
+        @Html.Label("SignificantOtherPhone") @Html.Editor("SignificantOtherPhone")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        Military Service
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Label("MilitaryServiceBranch") @Html.Editor("MilitaryServiceBranch")
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        @Html.Label("DateOfServiceFrom") @Html.Editor("DateOfServiceFrom")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("DateOfServiceTo") @Html.Editor("DateOfServiceTo")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("ServiceLocation") @Html.Editor("ServiceLocation")
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        @Html.Label("OtherDateOfServiceFrom") @Html.Editor("OtherDateOfServiceFrom")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("OtherDateOfServiceTo") @Html.Editor("OtherDateOfServiceTo")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("OtherServiceLocation") @Html.Editor("OtherServiceLocation")
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        @Html.Label("Rank") @Html.Editor("Rank")
+    </div>
+    <div class="col-sm-4">
+        @Html.Label("Rate") @Html.Editor("Rate")
+    </div>    
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Label("TypeOfDischarge") @Html.Editor("TypeOfDischarge")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Label("MedicalBoardReview") @Html.DropDownList("MedicalBoardReview")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Label("EducationalDegrees") @Html.Editor("EducationalDegrees")
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Label("TrainingStartDate") @Html.Editor("TrainingStartDate")
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>Please include a short bio (up to one page) for your file: Helpful Tips to creating a short biography.</p>
+        
+        <ol>
+            <li> Introduce yourself as if you were meeting a stranger. </li>
+            <li> Immediately state what you do. </li>
+            <li> Touch upon your military service and your most important accomplishments. </li>
+            <li> Share any other information that you feel comfortable with. </li>
+            <li> Goals after you graduate from K9s For Warriors. </li>
+        </ol>
+        @Html.Editor("Biography")
+    </div>
+</div>
+
+
